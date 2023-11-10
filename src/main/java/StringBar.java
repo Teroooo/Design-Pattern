@@ -17,4 +17,10 @@ public class StringBar extends Bar{
         isHappyHour = false;
         notifyObservers();
     }
+
+
+    void order(StringDrink drink, StringRecipe recipe) {
+        recipe.mix(drink);
+    }
+
 }
